@@ -20,6 +20,7 @@ public class PickaCardJokers
   public static int jack;
   public static int queen;
   public static int king;
+  public static int joker;
   public static int hearts;
   public static int clubs;
   public static int spades;
@@ -28,7 +29,7 @@ public class PickaCardJokers
    public static void main(String[] args)
    {
    int var = 0;
-   int x = 300;
+   double x = 1000;
    while (var < x)
     {
     var++;
@@ -106,6 +107,7 @@ public class PickaCardJokers
     if (whatCard >=53 && whatCard <=54)
     {
       System.out.print("JOKER");
+      joker++;
 //      var += var*var; //uncommenting out this line will make the program stop upon it's first JOKER draw
     }
     else 
@@ -139,7 +141,7 @@ public class PickaCardJokers
     
     if (var == x)
     {
-     /*
+     
     {
     double ace1 = (ace/x) * 100;
     double two1 = (two/x) * 100;
@@ -154,6 +156,7 @@ public class PickaCardJokers
     double jack1 = (jack/x) * 100;
     double queen1 = (queen/x) * 100;
     double king1 = (king/x) * 100;
+    double joker1 = (joker/x) * 100;
     double hearts1 = (hearts/x) * 100;
     double clubs1 = (clubs/x) * 100;
     double spades1 = (spades/x) * 100;
@@ -173,11 +176,33 @@ public class PickaCardJokers
     System.out.println("Jack  : " + jack + " ");
     System.out.println("Queen  : " + queen + " ");
     System.out.println("King  : " + king + " ");
+    System.out.println("King  : " + joker + " ");
+    System.out.println("");
+      
+    System.out.println("");
+    System.out.println("Ace: " + ace1 + "% draw chance this round");
+    System.out.println("Two : " + two1 + "% draw chance this round");
+    System.out.println("Three : " + three1 + "% draw chance this round");
+    System.out.println("Four : " + four1 + "% draw chance this round");
+    System.out.println("Five : " + five1 + "% draw chance this round");
+    System.out.println("Six : " + six1 + "% draw chance this round");
+    System.out.println("Seven : " + seven1 + "% draw chance this round");
+    System.out.println("Eight : " + eight1 + "% draw chance this round");
+    System.out.println("Nine  : " + nine1 + "% draw chance this round");
+    System.out.println("Ten  : " + ten1 + "% draw chance this round");
+    System.out.println("Jack  : " + jack1 + "% draw chance this round");
+    System.out.println("Queen  : " + queen1 + "% draw chance this round");
+    System.out.println("King  : " + king1 + "% draw chance this round");
+    System.out.println("JOKER  : " + joker1 + "% draw chance this round");
     System.out.println("");
 
     }
  //   */
    }
    }
-  }
+   }
+   
+}
+
+  
     
